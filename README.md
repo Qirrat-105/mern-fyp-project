@@ -9,12 +9,15 @@ This is my Final Year Project developed using MERN Stack.
 - Node.js
 
 ## Features
-- User Registration & Login
+- User Authentication (Login/Register)
+- Admin Dashboard
 - CRUD Operations
-- Role Based Access (if any)
 - Responsive UI
 
-## How To Run
+## How to Run Project
+
+1. Download client.zip and server.zip
+2. Extract both folders
 
 Backend:
 cd server
@@ -25,3 +28,11 @@ Frontend:
 cd client
 npm install
 npm start
+
+## Environment Variables
+Create .env file inside server folder and add:
+
+MONGO_URI=your_mongodb_connection
+PORT=5000
+
+
